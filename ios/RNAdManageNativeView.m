@@ -7,7 +7,7 @@
 #import <React/RCTBridgeModule.h>
 #import <React/UIView+React.h>
 #import <React/RCTLog.h>
-#import <MetaAdapter/MetaAdapter.h>
+// #import <MetaAdapter/MetaAdapter.h>
 
 #include "RCTConvert+GADAdSize.h"
 #import "RNAdManagerUtils.h"
@@ -135,9 +135,9 @@ static NSString *const kAdTypeTemplate = @"template";
     GAMRequest *request = [GAMRequest request];
 
     // Meta Audience network
-    GADFBNetworkExtras * fbExtras = [[GADFBNetworkExtras alloc] init];
-    fbExtras.nativeAdFormat = GADFBAdFormatNativeBanner;
-    [request registerAdNetworkExtras:fbExtras];
+    // GADFBNetworkExtras * fbExtras = [[GADFBNetworkExtras alloc] init];
+    // fbExtras.nativeAdFormat = GADFBAdFormatNativeBanner;
+    // [request registerAdNetworkExtras:fbExtras];
 
     GADExtras *extras = [[GADExtras alloc] init];
     if (_correlator == nil) {
@@ -335,10 +335,10 @@ static NSString *const kAdTypeTemplate = @"template";
                                    nil, @"images",
                                    nil];
 
-        NSString *socialContext = nativeAd.extraAssets[GADFBSocialContext];
-        if (socialContext != nil) {
-            ad[@"socialContext"] = socialContext;
-        }
+        // NSString *socialContext = nativeAd.extraAssets[GADFBSocialContext];
+        // if (socialContext != nil) {
+        //     ad[@"socialContext"] = socialContext;
+        // }
 
         if (nativeAd.icon != nil) {
             ad[@"icon"] = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
