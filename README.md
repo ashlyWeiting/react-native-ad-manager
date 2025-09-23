@@ -1,3 +1,7 @@
+# ⚠️ Project Status: Sunsetting
+## This repository is no longer actively maintained as of 24th September 2025.
+## You may continue to use the package, but no new features or fixes will be provided. 
+
 # react-native-ad-manager
 
 A react-native module for Google Ad Manager Banners, Interstitials and Native ads.
