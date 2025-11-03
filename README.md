@@ -1,3 +1,10 @@
+# ⚠️ Project Status: Sunsetting
+**This repository is no longer actively maintained as of 24th September 2025.**
+
+**It will be archived and deprecated on NPM. You may continue to use the package, but no new features or fixes will be provided.**
+
+➡️ Consider using [React Native Google Mobile Ads](https://www.npmjs.com/package/react-native-google-mobile-ads) as an alternative
+
 # react-native-ad-manager
 
 A react-native module for Google Ad Manager Banners, Interstitials and Native ads.
